@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://d38vrblg2ltm93.cloudfront.net/admin/image/%E6%B0%B4%E4%B8%AD%E8%83%8C%E6%99%AF%20A4.JPG");
+  background-size: cover;
+}
+
+ul {
+  /* border: solid 2px #fffaf1; */
+  /* background: #fffaf1; */
+  padding: 0.5em 1em 0.5em 2.3em ;
+  position: relative;
+}
+
+ul li {
+  line-height: 1.5;
+  padding: -0.5em 0;
+  list-style-type: none!important;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+ul li:before {
+  font-family: "Font Awesome 5 Brands";
+  content:'\f785';
+  position: absolute;
+  left: 1em;
+  color: #ff938b
+
+}
+
+h1, p {
+  color: white;
+}
