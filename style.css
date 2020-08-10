@@ -3,6 +3,18 @@ body {
   background-size: cover;
 }
 
+h1,h3, p {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+img {
+  padding-bottom: 50px;
+  display: block;
+  margin: auto;
+}
+
 ul {
   /* border: solid 2px #fffaf1; */
   /* background: #fffaf1; */
@@ -12,7 +24,7 @@ ul {
 
 ul li {
   line-height: 1.5;
-  padding: -0.5em 0;
+  padding: 0.1em 1em;
   list-style-type: none!important;
   color: white;
   font-size: large;
@@ -24,10 +36,7 @@ ul li:before {
   content:'\f785';
   position: absolute;
   left: 1em;
-  color: #ff938b
+  color: rgb(219, 57, 57);
+  
 
-}
-
-h1, p {
-  color: white;
 }
